@@ -1,3 +1,4 @@
+/* CSS for HTML */
 body {
   background-color: #94d3ac;
   margin: 0;
@@ -30,9 +31,14 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
-  color:#94aa2a;
+  color: #94aa2a;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
 }
 
 hr {
@@ -49,6 +55,7 @@ p {
   line-height: 2;
 }
 
+/* Title Section  */
 .dev {
   font-weight: normal;
   color: #66BFBF;
@@ -77,8 +84,13 @@ p {
   line-height: 2;
 }
 
+/* Profile Section  */
 .profile-picture {
   border-radius: 100%;
+}
+
+.greeting{
+  padding-top: 1.5%;
 }
 
 .full-stack {
@@ -86,32 +98,53 @@ p {
 }
 
 .middle-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 3%;
+  padding-bottom: 3%;
   background-color: #ccedd2;
+  text-align: center;
 }
 
 .intro {
   width: 30%;
   margin: auto;
+  font-size: 1.25rem;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
+.profile {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* Skills Section  */
+.education {
+  padding-bottom: 3%;
+}
+
+.certification {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.educationList {
+  list-style-position: inside;
+  color: #0c7b93;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+}
+
+.skillSetTitle {
+  padding-bottom: 1.5%
+}
+
+.qualifications {
+  list-style-position: inside;
+  color: #0c7b93;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  display: inline-block;
   text-align: left;
-}
-
-.coding {
-  width: 25%;
-  margin-right: 30px;
-  float: left;
-}
-
-.cooking {
-  width: 25%;
-  margin-left: 30px;
-  float: right;
 }
 
 .trademark {
@@ -119,47 +152,20 @@ p {
 }
 
 .bottom-container {
+  padding-top: 1.5%;
   background-color: #94d3ac;
 }
 
-/***Button CSS**/
-.myButton {
-  background: #3DF651;
-  background-image: -webkit-linear-gradient(top, #3DF651, #1E62D0);
-  background-image: -moz-linear-gradient(top, #3DF651, #1E62D0);
-  background-image: -ms-linear-gradient(top, #3DF651, #1E62D0);
-  background-image: -o-linear-gradient(top, #3DF651, #1E62D0);
-  background-image: linear-gradient(to bottom, #3DF651, #1E62D0);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  color: #FFFFFF;
-  font-family: sans-serif;
-  font-size: 20px;
-  font-weight: 100;
-  padding: 20px;
-  -webkit-box-shadow: 1px 1px 20px 0 #000000;
-  -moz-box-shadow: 1px 1px 20px 0 #000000;
-  box-shadow: 1px 1px 20px 0 #000000;
-  text-shadow: 1px 1px 20px #000000;
-  border: solid #337FED 1px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-  margin-bottom: 50px;
+/* Contact section */
+
+.email{
+  padding-right: 1%;
 }
 
-.myButton:hover {
-  border: solid #337FED 1px;
-  background: #A1D01E;
-  background-image: -webkit-linear-gradient(top, #A1D01E, #3DF65A);
-  background-image: -moz-linear-gradient(top, #A1D01E, #3DF65A);
-  background-image: -ms-linear-gradient(top, #A1D01E, #3DF65A);
-  background-image: -o-linear-gradient(top, #A1D01E, #3DF65A);
-  background-image: linear-gradient(to bottom, #A1D01E, #3DF65A);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
+.linkedIn{
+  padding-left: 1%;
+}
+
+.trademark{
+  padding-top: 2%;
 }

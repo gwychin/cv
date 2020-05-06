@@ -4,55 +4,143 @@
 <head>
   <meta charset="utf-8">
   <title>Gavin Chin</title>
-  <link rel="stylesheet" href="css/styles.css">
+
   <link rel="icon" href="favicon.ico">
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Maitree|Montserrat&display=swap" rel="stylesheet">
+
+  <!--Bootstrap CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--Css stylesheet-->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--Font Awesome-->
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!--Bootstrap JS-->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud image">
-    <h1>I'm Gavin</h1>
-    <h2 class="dev">A <span class="full-stack">Developer</span> </h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud image">
-    <img class="mountain" src="images/mountain.png" alt="cloud image">
-  </div>
 
-  <div class="middle-container">
+  <section class="colored-section" id="title">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#websiteMenu" aria-controls="websiteMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="websiteMenu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Title -->
+
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud image">
+      <h1>I'm Gavin</h1>
+      <h2 class="dev">A <span class="full-stack">Developer</span> </h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud image">
+      <img class="mountain" src="images/mountain.png" alt="cloud image">
+    </div>
+  </section>
+
+
+  <section class="colored-section" id="aboutMe">
     <div class="profile">
       <img class="profile-picture" src="https://media-exp1.licdn.com/dms/image/C5603AQEcCi3xMJTv_A/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=CyxSDIwNvu7_esO65I_o0ToIgMS7xZdI1gz0_NRfYOQ" alt="Gavin Chin - Full Stack Web Developer">
-      <h2>Greetings.</h2>
+      <h2 class="greeting">Greetings.</h2>
       <p class="intro">My name is Gavin Chin. I am a Full Stack Web Developer. I love photography and cooking</p>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="coding" src="images/javascript.png" alt="coding">
-        <div class="attribute">Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        <h3>Development & Design</h3>
-        <p>I took a bootcamp in full stack web development. From there, I realized how much I enjoy coding and developing applications and websites. It is always my passion to learn more and grow as a developer.</p>
-      </div>
-      <div class="skill-row">
-        <img class="cooking" src="images/chicken.png" alt="cooking">
-        <div class="attribute">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        <h3>Culinary Exploration & Cooking</h3>
-        <p>Another passion of mine is cooking. I discovered this when I was child. I love trying new combinations of spices to weave a tapestry of aroma and flavor for the dishes I am experimenting with.</p>
-      </div>
-    </div>
-    <hr>
-  </div>
-  <div class="bottom-container">
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you have a job offer or love cooking as much as I do</h3>
-      <p>Feel free to reach out to me via my email or my LinkedIn:</p>
-      <a class="myButton" href="mailto:gwychin@gmail.com">CONTACT ME</a>
-    </div>
-    <a class="footer-link" href="https://www.linkedin.com/in/gwychin">LinkedIn</a>
-    <p class="trademark">© 2020 Gavin Chin.</p>
-  </div>
+  </section>
 
+
+  <section class="colored-section" id="skills">
+    <div class="middle-container">
+
+      <hr>
+      <div class="skillsSection">
+        <div class="education col-12">
+          <h2>Education</h2>
+          <ul class="educationList">
+            <li>Bachelor's of Information Technology - Network Administration & Security
+              <br>
+              Green River College
+            </li>
+          </ul>
+
+        </div>
+        <div class="certification col-12">
+          <h2>Certifications</h2>
+          <ul class="qualifications">
+            <li>Azure Fundamentals</li>
+            <li>Azure Administrator Associate</li>
+          </ul>
+        </div>
+        <div class="skillSetTitle col-12">
+          <h2>Skills</h2>
+        </div>
+        <div class="row">
+          <div class="column skillSet1 col-lg-6">
+            <ul class="qualifications">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Bootstrap</li>
+              <li>jQuery</li>
+              <li>Unix CLI</li>
+              <li>Node.js</li>
+            </ul>
+          </div>
+          <div class="column skillSet2 col-lg-6">
+            <ul class="qualifications">
+              <li>Express.js</li>
+              <li>APIs</li>
+              <li>Git & Github</li>
+              <li>EJS</li>
+              <li>SQL</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+              <li>React.js</li>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+      <hr>
+  </section>
+
+  <section class="colored-section" id="contact">
+    <div class="bottom-container">
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you have a job offer or love cooking as much as I do</h3>
+        <p>Feel free to reach out to me via my email or my LinkedIn:</p>
+        <a class="email" href="mailto:gwychin@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
+        <a class="linkedIn" href="https://www.linkedin.com/in/gwychin"><i class="fab fa-linkedin fa-3x"></i></a>
+      </div>
+
+      <p class="trademark">© 2020 Gavin Chin.</p>
+    </div>
+
+  </section>
 
 </body>
 
