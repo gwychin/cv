@@ -1,6 +1,6 @@
 /* CSS for HTML */
 body {
-  background-color: #94d3ac;
+  background-color: #0c7b93;
   margin: 0;
   text-align: center;
   font-family: 'Maitree', serif;
@@ -11,18 +11,18 @@ h1 {
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: 'Dancing Script', cursive;
-  color: #66BFBF;
+  color: #27aa80;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #0f4c81;
+  color: #b7e778;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  color: #c0ffb3;
 }
 
 a {
@@ -51,14 +51,14 @@ hr {
 }
 
 p {
-  color: #394a6d;
+  color: #9cf196;
   line-height: 2;
 }
 
 /* Title Section  */
 .dev {
   font-weight: normal;
-  color: #66BFBF;
+  color: #27aa80;
 }
 
 .attribute {
@@ -78,7 +78,7 @@ p {
 }
 
 .top-container {
-  background-color: #effcef;
+  background-color: #88e1f2;
   position: relative;
   padding-top: 100px;
   line-height: 2;
@@ -100,12 +100,12 @@ p {
 .middle-container {
   padding-top: 3%;
   padding-bottom: 3%;
-  background-color: #ccedd2;
+  background-color: #27496d;
   text-align: center;
 }
 
 .intro {
-  width: 30%;
+  width: 50%;
   margin: auto;
   font-size: 1.25rem;
 }
@@ -127,7 +127,7 @@ p {
 
 .educationList {
   list-style-position: inside;
-  color: #0c7b93;
+  color: #c0ffb3;
   font-size: 1.25rem;
   font-family: 'Montserrat', sans-serif;
   display: inline-block;
@@ -139,7 +139,7 @@ p {
 
 .qualifications {
   list-style-position: inside;
-  color: #0c7b93;
+  color: #c0ffb3;
   font-size: 1.25rem;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
@@ -153,7 +153,7 @@ p {
 
 .bottom-container {
   padding-top: 1.5%;
-  background-color: #94d3ac;
+  background-color: #0c7b93;
 }
 
 /* Contact section */
@@ -168,4 +168,5 @@ p {
 
 .trademark{
   padding-top: 2%;
+  color: #ffff;
 }
